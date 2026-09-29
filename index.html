@@ -26,39 +26,10 @@
 
   <section id="agents">
     <h2>지구별 에이전트</h2>
-    <p class="sub">필요한 말을 건네면, 알맞은 에이전트가 나섭니다.</p>
-    <div class="grid">
-      <article class="card c-blue">
-        <div class="ico">💰</div>
-        <h3>재정매니저</h3>
-        <p>수입·지출·예산·저축·현금흐름을 정리해요.</p>
-        <code>"예산 짜줘"</code>
-      </article>
-      <article class="card c-green">
-        <div class="ico">📈</div>
-        <h3>투자매니저</h3>
-        <p>자산배분·종목 비교·투자 일지로 감정매매를 줄여요.</p>
-        <code>"포트폴리오 점검"</code>
-      </article>
-      <article class="card c-orange">
-        <div class="ico">📚</div>
-        <h3>독서큐레이터</h3>
-        <p>책 추천, 독서 계획, 핵심 정리와 글쓰기까지.</p>
-        <code>"책 추천해줘"</code>
-      </article>
-      <article class="card c-pink">
-        <div class="ico">🌤️</div>
-        <h3>루틴매니저</h3>
-        <p>아침·저녁 루틴과 주간 계획, 실천 점검을 도와요.</p>
-        <code>"오늘 점검"</code>
-      </article>
-      <article class="card c-purple">
-        <div class="ico">🗣️</div>
-        <h3>영어공부매니저</h3>
-        <p>수준에 맞는 학습, 대화 연습, 자연스러운 교정.</p>
-        <code>"오늘 영어"</code>
-      </article>
-    </div>
+    <p class="sub">탭을 눌러 에이전트를 만나고, 필요한 자료를 올려 두세요.</p>
+    <div class="tabs" id="tabs" role="tablist"></div>
+    <div class="panel" id="panel"></div>
+    <p class="note">🔒 올린 자료는 이 기기의 브라우저에만 저장돼요. 서버로 전송되지 않고, 다른 사람에게 보이지 않아요. (브라우저 데이터를 지우면 함께 사라져요)</p>
   </section>
 
   <section id="how" class="how">
@@ -72,5 +43,6 @@
 </main>
 
 <footer>© 시간여행 · 🌏 지구별</footer>
+<script src="app.js"></script>
 </body>
 </html>
